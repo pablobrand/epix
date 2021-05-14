@@ -1,4 +1,8 @@
-html,
+html {
+  background:
+  url(https://gateway.pinata.cloud/ipfs/QmfBzCjhrtXJMaGX4uz5gquZp5s9YDdn6yypnpcNdH1Dva);
+  background-size: cover;
+}
 body {
   padding: 0;
   margin: 0;
