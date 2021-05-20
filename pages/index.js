@@ -13,10 +13,7 @@ export default function Home () {
         <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons' />
       </Head>
       <Nav />
-      <main className={styles.main}>
-        <HomeSection />
-      </main>
-
+      <HomeSection />
       <footer className={styles.footer}>
         <a
           href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
@@ -24,7 +21,7 @@ export default function Home () {
           rel='noopener noreferrer'
         >
           Powered by{' '}
-          <img src='/vercel.svg' alt='Vercel Logo' className={styles.logo} />
+          <img src='/logo.png' alt='Cybermonkeys Logo' className={styles.logo} />
         </a>
       </footer>
     </div>

@@ -32,7 +32,7 @@ export default function Nav () {
         component='a'
         href='#'
         label='Home'
-        icon={<HomeIcon fontSize='normal' />}
+        icon={<HomeIcon fontSize='small' />}
         onClick={handleClick}
       />
       <StyledBreadcrumb component='a' href='#' label='Contact Us' onClick={handleClick} />
