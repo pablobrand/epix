@@ -8,6 +8,9 @@ import ContactSupportRoundedIcon from '@material-ui/icons/ContactSupportRounded'
 const useStyles = makeStyles({
   rootMedia: {
     maxWidth: '100%',
+    textAlign: "center",
+    padding: 50,
+    alignItems: 'static'
   },
 });
 
@@ -18,7 +21,7 @@ export default function Homesectiontop() {
   }
 
   return (
-    <Card className={classes.rootMedia} style={{'text-align':'center', 'padding-top':'50px'}}>
+    <Card className={classes.rootMedia}>
       
         {/* <CardMedia
           className={classes.media}
