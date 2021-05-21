@@ -30,15 +30,15 @@ export default function Homesectiontop() {
           title="Contemplative Reptile"
           onLoad={() => setLoaded(true)}
         /> */}
-         <Image 
-                loader={myLoader}
-                src="QmUuXk9pjuqNALm8i8GwsvFX2fvZAUhffZXtkmJGaBdr7T"
-                //src="site_logo2.jpg"
-                alt="Cyber Monkeys Landing Page Image"
-                width={600}
-                height={400}
-            />
         <CardContent style={{'text-align':'center', 'max-width':'100%', 'position':'center'}}>
+            <Image 
+                  loader={myLoader}
+                  src="QmUuXk9pjuqNALm8i8GwsvFX2fvZAUhffZXtkmJGaBdr7T"
+                  //src="site_logo2.jpg"
+                  alt="Cyber Monkeys Landing Page Image"
+                  width={600}
+                  height={400}
+              />
             <Typography gutterBottom variant="h4" component="h2">
                 Got Blockchain needs <ContactSupportRoundedIcon/>
             </Typography>
