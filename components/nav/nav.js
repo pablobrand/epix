@@ -4,6 +4,7 @@ import Breadcrumbs from '@material-ui/core/Breadcrumbs'
 import Chip from '@material-ui/core/Chip'
 import HomeIcon from '@material-ui/icons/Home'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
+import { useRouter } from 'next/router'
 
 const StyledBreadcrumb = withStyles((theme) => ({
   root: {
@@ -21,11 +22,15 @@ const StyledBreadcrumb = withStyles((theme) => ({
   }
 }))(Chip) // TypeScript only: need a type cast here because https://github.com/Microsoft/TypeScript/issues/26591
 
-function handleClick (event) {
+
+function handleClick (event, useRouter) {
+  const router = useRouter()
   event.preventDefault()
-  console.info('You clicked a breadcrumb.')
+  router.push(href)
 }
+
 export default function Nav () {
+  
   return (
     <Breadcrumbs aria-label='breadcrumb' position='top'>
       <StyledBreadcrumb
@@ -35,7 +40,7 @@ export default function Nav () {
         icon={<HomeIcon fontSize='small' />}
         onClick={handleClick}
       />
-      <StyledBreadcrumb component='a' href='#' label='Contact Us' onClick={handleClick} />
+      <StyledBreadcrumb component='a' href='/contact' label='Contact Us' onClick={handleClick} />
     </Breadcrumbs>
   )
 }
