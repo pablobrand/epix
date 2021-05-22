@@ -1,27 +1,18 @@
 import {React} from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import Image from 'next/image';
 import ContactSupportRoundedIcon from '@material-ui/icons/ContactSupportRounded';
-const useStyles = makeStyles({
-  rootMedia: {
-    maxWidth: '100%',
-    textAlign: "center",
-    padding: 50,
-    alignItems: 'static'
-  },
-});
+
 
 export default function Homesectiontop() {
-  const classes = useStyles();
   const myLoader = ({ src, width, quality }) => {
     return `https://gateway.pinata.cloud/ipfs/${src}?w=${width}&q=${quality || 75}`
   }
 
   return (
-    <Card className={classes.rootMedia}>
+    <Card>
       
         {/* <CardMedia
           className={classes.media}

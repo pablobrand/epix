@@ -42,7 +42,7 @@ export default function Homesection () {
                 <Typography variant="h5" component="h2" gutterBottom>
                   <QuestionAnswerRoundedIcon spacing={2}/> Consultation Services
                 </Typography>
-                <Typography variant="h7" color="textPrimary" component="p" gutterBottom>
+                <Typography variant="body1" color="textPrimary" component="p" gutterBottom>
                 Because your time is valuable, sometimes it makes sense to hire someone to help layout a plan of action and provide you with the technical knowledge needed to take your business to the next level. Because each business is different, each need and solution will also be different. 
                 <Button color="primary" href="#" spacing={2}>
                   Contact Us
@@ -56,7 +56,7 @@ export default function Homesection () {
                 <Typography variant="h5" component="h2" gutterBottom>
                   <MenuBookRoundedIcon/> Education Services
                 </Typography>
-                <Typography variant="h7" color="textPrimary" component="p" gutterBottom>
+                <Typography variant="body1" color="textPrimary" component="p" gutterBottom>
                 Do you want to learn something in specific about blockchain? What is Bitcoin? Cryptocurrency? NFTs? What is a specific cryptocurrency project about? We can also help educate your employees on a specific area in the blockchain industry. 
                 </Typography>
                 <Typography variant="overline" color="textSecondary" component="p" gutterBottom>
@@ -69,7 +69,7 @@ export default function Homesection () {
                 <Typography variant="h5" component="h2" gutterBottom>
                   <CodeRoundedIcon style={{'padding':'2px'}}/> Blockchain Solutions
                 </Typography>
-                <Typography variant="h7" color="textPrimary" component="p" gutterBottom>
+                <Typography variant="body1" color="textPrimary" component="p" gutterBottom>
                 Have project in mind that requires a blockchain solution? Maybe integration to your current systems? We can help with the planning, design implementation and/or testing of a blockchain solution. Let us help you bring your project to light!
                 </Typography>
               </Paper>
