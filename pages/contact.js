@@ -6,10 +6,11 @@ import DraftsIcon from '@material-ui/icons/Drafts';
 
 const useStyles = makeStyles((theme) => ({
   formContainer: {
-    paddingTop:20,
+    paddingTop:40,
     maxWidth:'100%',
     display: "flex",
     justifyContent: "center",
+    alignContent: "center"
     
   },
   formBody:{
@@ -31,8 +32,8 @@ export default function ContactForm () {
   if (state.succeeded) {
       return (
         <div className={classes.formContainer}>
-          <Typography variant="h1" component="h2">
-            <DraftsIcon/>Thanks your for your messsage, we will get back to you as soon as possible
+          <Typography variant="h4" component="h4" color="secondary">
+            <DraftsIcon/>Thank your for your message, we will get back to you as soon as possible!
           </Typography>
         </div>
   )}
