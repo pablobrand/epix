@@ -24,7 +24,7 @@ export default function Homesectiontop() {
         <CardContent style={{'text-align':'center', 'max-width':'100%', 'position':'center'}}>
             <Image 
                   loader={myLoader}
-                  src="QmUuXk9pjuqNALm8i8GwsvFX2fvZAUhffZXtkmJGaBdr7T"
+                  src="QmfBzCjhrtXJMaGX4uz5gquZp5s9YDdn6yypnpcNdH1Dva"
                   //src="site_logo2.jpg"
                   alt="Cyber Monkeys Landing Page Image"
                   width={600}
