@@ -1,5 +1,7 @@
 module.exports = {
-    images: {
-      domains: ['https://gateway.pinata.cloud/ipfs'],
-    },
+  images: {
+    loader: 'imgix',
+    path: '',
+    domains: ['https://gateway.pinata.cloud/ipfs']
   }
+}

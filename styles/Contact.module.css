@@ -1,0 +1,16 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.formBody {
+    padding: 5px;
+    width: 400px;    
+}
+.buttonForm {
+    display: flex;
+    justify-content: center;
+}
+.inputFieldDivider {
+    padding-top: 5px;
+}
