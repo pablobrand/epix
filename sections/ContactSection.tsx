@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import Container from '@/components/Container';
-
+import ContactFormSection from './ContactFormSection';
 const ContactSection = () => {
   return (
     <section className="grid min-h-screen mt-20 mb-10 text-white">
@@ -14,16 +14,15 @@ const ContactSection = () => {
               <span className="block font-semibold">Cybermonkeys LLC</span>
             </h1>
             <p className="text-xl font-medium mb-8">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s,
+              Because we value your time, we want to hear some details about your needs, before our first communication, so we can hit the ground running and deliver your solution(s)!
             </p>
             <p>
-              <Link href="/">
+              {/* <Link href="/">
                 <a className="uppercase bg-blue-600 px-6 py-3 rounded-full">
                   Read More
                 </a>
-              </Link>
+              </Link> */}
+
             </p>
           </div>
           <div className="col-span-12 lg:col-span-7 text-right">
@@ -31,6 +30,9 @@ const ContactSection = () => {
               <Image src="/images/contact-image.png" width={540} height={505} />
             </div>
           </div>
+        </div>
+        <div className="grid">
+          <ContactFormSection />
         </div>
       </Container>
     </section>

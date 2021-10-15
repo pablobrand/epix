@@ -13,12 +13,12 @@ const Home = () => {
   return (
     <Layout>
       <Navbar />
-      <HomeSection />
+      {/* <HomeSection /> */}
       <GlobeSection />
       <ServicesSection />
-      <WhyChooseUsSection />
+      {/* <WhyChooseUsSection />
       <FAQSection />
-      <LatestNewsSection />
+      <LatestNewsSection /> */}
       <Footer />
     </Layout>
   );

@@ -23,7 +23,7 @@ const ServicesSection = () => {
               someone to help layout a plan of action and provide you with the
               technical knowledge needed to take your business to the next
               level. Because each business is different, each need and solution
-              will also be different.and let us help you understand, layout and
+              will also be different. Let us help you understand, layout and
               execute your solution.
             </p>
           </div>
@@ -52,13 +52,13 @@ const ServicesSection = () => {
               <Image src="/images/block-chain.svg" width={114} height={124} />
             </div>
             <h3 className="text-5xl mb-2 font-semibold">
-              Blockchain Solutions
+              Digital Solutions
             </h3>
             <p className="font-poppins">
-              Have project in mind that requires a blockchain solution? Maybe
-              integration to your current systems? We can help with the
-              planning, design implementation and/or testing of a blockchain
-              solution. Let us help you bring your project to light!
+              Have a project in mind that requires a blockchain solution? Maybe you have a digital solution need, where you need? We can help with the
+              planning, design, implementation and/or testing of a blockchain
+              solution or other web digital need. Let us help you bring your project to light!
+
             </p>
           </div>
         </div>

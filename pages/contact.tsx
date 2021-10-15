@@ -10,7 +10,7 @@ const Contact = () => {
     <Layout>
       <Navbar />
       <ContactSection />
-      <ContactFormSection />
+      {/* <ContactFormSection /> */}
       <Footer />
     </Layout>
   );

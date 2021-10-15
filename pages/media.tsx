@@ -11,8 +11,8 @@ const Media = () => {
     <Layout>
       <Navbar />
       <MediaSection />
-      <VideosSection />
-      <LatestNewsSection />
+      {/* <VideosSection />
+      <LatestNewsSection /> */}
       <Footer />
     </Layout>
   );

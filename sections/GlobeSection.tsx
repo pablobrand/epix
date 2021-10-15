@@ -13,19 +13,10 @@ const GlobeSection = () => {
               GOT BLOCKCHAIN NEEDS
             </h2>
             <p className="text-center text-xl font-medium">
-              We are currently living the next technological revolution, with
-              Blockchain technology taking the internet to the next level. As
-              the innovation that the internet, so will Blockchain. From
-              finance, trustless mechanism, decentralization, and many other
-              areas yet discovered. You are about to take the first step in this
-              industry to prevent your business to becoming “Blockbuster”, for
-              this we praise your visionary mind set.
+              We are currently living the next technological revolution, with the Blockchain technology taking the internet to the next level. Just as the internet drastically changed the world, so will Blockchain technologies. From finance, trustless mechanism, decentralization and many other areas yet discovered. You are about to take the first step into the future, and prevent your business from becoming “Blockbuster”, for this we praise your visionary mind set.
             </p>
             <p className="text-center text-xl font-medium">
-              We are very focus group of technologically innovative IT
-              Engineers, in the field of the Web and Blockchain, looking to help
-              business adapt to this new wave of technological advancement by
-              helping you in the following areas:
+              We are a group of technologically innovative IT Engineers, in the field of the Web, Digital Graphics, Video and Blockchain solutions, looking to help business adapt to this new wave of technological advancement by helping you in the following areas:
             </p>
           </div>
         </div>

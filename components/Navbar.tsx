@@ -46,26 +46,26 @@ const Navbar = () => {
                 {dropdownMenuOpen ? (
                   <XIcon className="w-6 h-6 inline-block" />
                 ) : (
-                  <MenuIcon className="w-6 h-6 inline-block" />
-                )}
+                    <MenuIcon className="w-6 h-6 inline-block" />
+                  )}
               </button>
             </div>
           </div>
           <div
             className={`text-white lg:bg-transparent bg-pink-800 w-full lg:w-auto lg:flex-grow lg:flex lg:items-center justify-end ${
               dropdownMenuOpen ? 'block' : 'hidden'
-            }`}
+              }`}
           >
             <div className="lg:mb-0 mb-4">
               <NavItem title="Home" path="/" />
               <NavItem title="Media Content" path="/media" />
               <NavItem title="Contact Us" path="/contact" />
-              <NavItem
+              {/* <NavItem
                 title="Log In"
                 path="/"
                 bordered={true}
                 lastItem={true}
-              />
+              /> */}
             </div>
           </div>
         </div>

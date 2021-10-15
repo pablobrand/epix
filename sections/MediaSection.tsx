@@ -14,14 +14,12 @@ const MediaSection = () => {
               <span className="block font-semibold">Cybermonkeys LLC</span>
             </h1>
             <p className="text-xl font-medium mb-8">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s,
+              We are currently working on some videos that will be of benefit to those looking to learn more about Blockchain. We look forward to providing you with valuable content, thank you for your patience and understanding.
             </p>
             <p>
               <Link href="/">
                 <a className="uppercase bg-blue-600 px-6 py-3 rounded-full">
-                  Read More
+                  Coming Soon!
                 </a>
               </Link>
             </p>
