@@ -1,0 +1,11 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106 106" width="106" height="106">
+	<title>Icon feather-play-circle</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #ffffff;stroke-linecap:round;stroke-width: 3 } 
+	</style>
+	<g id="Icon feather-play-circle">
+		<path id="Path 11953" class="shp0" d="M103.21 52.86C103.21 80.77 80.59 103.4 52.68 103.4C24.77 103.4 2.15 80.77 2.15 52.86C2.15 24.95 24.77 2.33 52.68 2.33C80.59 2.33 103.21 24.95 103.21 52.86Z" />
+		<path id="Path 11954" class="shp0" d="M42.57 32.65L72.89 52.86L42.57 73.08L42.57 32.65Z" />
+	</g>
+</svg>

@@ -1,0 +1,117 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write your own custom component styles here */
+
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #393939,
+    #3c3c3c,
+    #3e3e3e,
+    #414141,
+    #444444
+  );
+}
+
+[id*='accordion__heading-'] {
+  @apply relative;
+}
+
+[id*='accordion__heading-']:before {
+  content: '';
+  width: 14px;
+  height: 1.5px;
+  background: #006cf9;
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 0;
+  display: block;
+  transition: all 0.3s;
+}
+
+[id*='accordion__heading-']:after {
+  content: '';
+  width: 1.5px;
+  height: 14px;
+  background: #006cf9;
+  position: absolute;
+  top: calc(50% - 7px);
+  right: calc(0rem + 6px);
+  display: block;
+  transition: all 0.3s;
+}
+
+[id*='accordion__heading-'][aria-expanded='true']:before {
+  @apply transform rotate-180;
+}
+
+[id*='accordion__heading-'][aria-expanded='true']:after {
+  /* transform: rotate(90deg) translateX(-1px); */
+  @apply transform rotate-90 -translate-x-px;
+}
+
+p {
+  @apply mb-3;
+}
+
+h1 {
+  @apply text-4xl;
+  @apply mb-3;
+}
+
+h2 {
+  @apply text-xl;
+  @apply mb-3;
+}
+
+ul {
+  @apply list-disc;
+  @apply list-inside;
+  @apply mb-3;
+}
+
+code {
+  @apply text-black;
+  @apply px-1;
+  @apply bg-gray-100;
+  @apply rounded;
+}
+
+.app-link {
+  @apply text-blue-700;
+  @apply font-medium;
+}
+
+.app-link:hover {
+  @apply underline;
+}
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+
+@layer base {
+  @font-face {
+    font-family: 'Rajdhani-Regular';
+    font-weight: 400;
+    src: url('/fonts/Rajdhani/Rajdhani-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'Poppins-Regular';
+    font-weight: 400;
+    src: url('/fonts/Poppins/Poppins-Regular.ttf');
+  }
+}
+
+body {
+  @apply font-rajdhani;
+}
