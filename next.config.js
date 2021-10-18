@@ -1,12 +1,4 @@
 module.exports = {
-<<<<<<< HEAD
-  images: {
-    loader: 'imgix',
-    path: '',
-    domains: ['https://gateway.pinata.cloud/ipfs']
-  }
-}
-=======
   publicRuntimeConfig: {
     site: {
       name: 'Cybermonkeys website with Next.js',
@@ -24,4 +16,3 @@ module.exports = {
     defaultLocale: 'en-US',
   },
 };
->>>>>>> 841d0728d8b4dc216f8b060f61a038169482f8a7
