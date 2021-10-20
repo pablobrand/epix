@@ -59,6 +59,7 @@ const Navbar = () => {
             <div className="lg:mb-0 mb-4">
               <NavItem title="Home" path="/" />
               <NavItem title="Media Content" path="/media" />
+              <NavItem title="NFTs" path="/nft" />
               <NavItem title="Contact Us" path="/contact" />
               {/* <NavItem
                 title="Log In"
