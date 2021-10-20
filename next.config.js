@@ -1,13 +1,13 @@
 module.exports = {
   publicRuntimeConfig: {
     site: {
-      name: 'Cybermonkeys website with Next.js',
+      name: 'Cyber Monkeys LLC',
       url:
         process.env.NODE_ENV === 'development'
           ? 'http://localhost:3000'
           : 'https://cybermonkeys-nextjs.vercel.app',
-      title: 'Cybermonkeys website with Next.js',
-      description: 'Cybermonkeys website with Next.js',
+      title: 'Cyber Monkeys LLC',
+      description: 'Cyber Monkeys LLC, Web, Digital, Video and Blockchain Solutions',
       socialPreview: '/images/preview.png',
     },
   },

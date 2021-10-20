@@ -17,7 +17,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>Cyber Monkeys</title>
           {/* Favicons, Google site verification and other common meta tags across the site. */}
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
