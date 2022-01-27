@@ -12,7 +12,7 @@ export default function Homesection () {
       <Grid item xs={12}>
         <Paper className={styles.paper}>
           <Typography variant='h1' component='h1'>
-            Welcome to Cybermonkeys LLC
+            Welcome to Epix Website
           </Typography>
           <Homesectiontop />
         </Paper>
